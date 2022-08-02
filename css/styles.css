@@ -1,0 +1,264 @@
+#title {
+    background-color: #030303;
+    color: #fff;
+  }
+  
+  body {
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+  }
+  
+  p {
+    color: #8f8f8f;
+  }
+  
+  .navbar {
+    padding: 0 0 4.5rem 0;
+  }
+  
+  .navbar-brand {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+  
+  .nav-item {
+    padding: 0 18px;
+  }
+  
+  .nav-link {
+    font-size: 1.2rem;
+    font-weight: normal;
+  }
+  
+  h1 {
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 700;
+  }
+  
+  .container {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container-fluid {
+    padding: 1% 20% 4%;
+  }
+  
+  #title .row {
+    margin: 0;
+  }
+  
+  .col-lg-6 {
+    padding: 0;
+  }
+  
+  .download-button {
+    margin: 5% 3% 5% 0;
+  }
+  
+  .title-image {
+    width: 100%;
+  }
+  
+  /* FEATURES - section */
+  
+  #features {
+    text-align: center;
+  }
+  
+  #features .row {
+    margin: 0;
+  }
+  
+  .features-box {
+    padding: 5% 4%;
+  }
+  
+  .features-heading {
+    padding: 10% 0 2%;
+  }
+  
+  .features-icon:hover {
+    color: #570205;
+  }
+  
+  
+  /* TESTIMONIALS - section */
+  
+  #testimonials {
+    background-color: #4a4a4a;
+    color: #fff;
+    padding: 6%;
+    text-align: center;
+  }
+  
+  .testimonial-image {
+    border-radius: 50%;
+    width: 10%;
+    margin-right: 20px;
+  }
+  
+  .testimonials-heading {
+    padding-bottom: 4%;
+    width: 70%;
+    margin: auto;
+  }
+  
+  
+  /* PRICING - section */
+  
+  #pricing {
+    text-align: center;
+    padding: 7% 0;
+  }
+  
+  #pricing .row {
+    margin: 0;
+    width: 80%;
+    margin: auto;
+  }
+  
+  .pricing-plan {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  
+  .pricing-table-header {
+    font-size: 3rem;
+    font-weight: 700;
+  }
+  
+  .pricing-header {
+    padding: 0.2rem 0;
+    font-size: 3rem;
+    font-weight: 700;
+  }
+  
+  .pricing-column {
+    padding-top: 4%;
+  }
+  
+  
+  /* CTA - section */
+  
+  #cta {
+    background-color: #030303;
+    padding: 6% 6% 3%;
+    text-align: center;
+  }
+  
+  .cta-header {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    color: #fff;
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .cta-button {
+    margin: 3% 1.5%;
+  }
+  
+  
+  
+  /* FOOTER - section */
+  
+  #footer {
+    padding: 2% 6%;
+    text-align: center;
+  }
+  
+  .footer-icon {
+    color: black;
+    padding: 1%;
+  }
+  
+  .footer-icon:hover {
+    color: black;
+  }
+  
+  .tm {
+    padding-top: 2%;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    font-weight: 400;
+  }
+  
+  
+  
+  /* MEDIA QUERIES ============================================= */
+  
+  @media (max-width: 1565px) {
+    h1 {
+      font-size: 3rem;
+    }
+  }
+  
+  @media (max-width: 1450px) {
+    h1 {
+      font-size: 2.5rem;
+    }
+  }
+  
+  @media (max-width: 1300px) {
+    .btn {
+      font-size: 1rem;
+    }
+    .title-image {
+      width: 80%;
+    }
+    h1 {
+      font-size: 2rem;
+    }
+    .features-text {
+      font-size: 0.8rem;
+    }
+    .features-heading {
+      font-size: 1.5rem;
+    }
+    .pricing-table-header, .pricing-header {
+      font-size: 2.2rem;
+    }
+    .cta-header {
+      font-size: 2.5rem;
+    }
+  }
+  
+  @media (max-width: 1240px) {
+    .container {
+      text-align: center;
+    }
+    .navbar-brand {
+      font-size: 2rem;
+    }
+    h1 {
+      font-size: 1.7rem;
+    }
+    .btn {
+      font-size: 0.8rem;
+    }
+    .title-image {
+      width: 70%;
+    }
+    .testimonials-heading {
+      font-size: 1.5rem;
+    }
+  }
+  
+  @media (max-width: 1130px) {
+     .pricing-text {
+       font-size: 0.8rem;
+     }
+     .pricing-plan {
+       font-size: 1rem;
+     }
+     .cta-header {
+       font-size: 2rem;
+     }
+  }
+  
+  }
+  
